@@ -11,8 +11,8 @@ const positions = ['-360', '388', '-299', '336', '-255', '220', '233', '266', '-
 buttonYes.addEventListener('click',()=>{
     content1.style.display = 'none';
     content2.style.display = 'block';
-    title.textContent = `Você fez a melhor escolha!😊`;
-    title.style.fontSize = '3rem';
+    title.textContent = `Você fez a melhor escolha!😊(Aí de vc se n tivesse apertado nesse sim🤡🔪)`;
+    title.style.fontSize = '1.6rem';
 });
 // Função de animação do coração.
 function heartBeat(){
